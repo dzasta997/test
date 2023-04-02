@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T12:30:02.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="OVuHtTTJGZsS3NyNThsH" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T09:40:47.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="bB8MeUu_GbxlKJA0vgH6" version="21.0.8" type="github">
   <diagram name="Page-1" id="kxcOQDuEne45LO7yProq">
     <mxGraphModel dx="1728" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Jurovupwxo92sWbbuWnG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;dashed=1;dashPattern=8 8;" edge="1" parent="Jurovupwxo92sWbbuWnG-1" source="Jurovupwxo92sWbbuWnG-3" target="Jurovupwxo92sWbbuWnG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jurovupwxo92sWbbuWnG-30" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Jurovupwxo92sWbbuWnG-29">
+          <mxGeometry x="0.2404" y="3" relative="1" as="geometry">
+            <mxPoint x="-235" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Jurovupwxo92sWbbuWnG-3" value="Prepare OpenAPI definition" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#99CCFF;" vertex="1" parent="Jurovupwxo92sWbbuWnG-1">
           <mxGeometry x="50" y="70" width="120" height="60" as="geometry" />
         </mxCell>
@@ -22,37 +30,45 @@
           <mxGeometry x="550" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jurovupwxo92sWbbuWnG-9" value="Ensure definition syntax correctness" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;fillColor=#99CCFF;" vertex="1" parent="Jurovupwxo92sWbbuWnG-1">
-          <mxGeometry x="340" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jurovupwxo92sWbbuWnG-13" value="Cooperate with a team" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#99CCFF;" vertex="1" parent="Jurovupwxo92sWbbuWnG-1">
-          <mxGeometry x="540" y="245" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jurovupwxo92sWbbuWnG-17" value="Create documentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="Jurovupwxo92sWbbuWnG-1">
-          <mxGeometry x="340" y="245" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Jurovupwxo92sWbbuWnG-18" value="Test your definition" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#99CCFF;" vertex="1" parent="Jurovupwxo92sWbbuWnG-1">
-          <mxGeometry x="50" y="245" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Jurovupwxo92sWbbuWnG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Jurovupwxo92sWbbuWnG-2" target="Jurovupwxo92sWbbuWnG-3">
+        <mxCell id="Jurovupwxo92sWbbuWnG-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="Jurovupwxo92sWbbuWnG-1" source="Jurovupwxo92sWbbuWnG-17" target="Jurovupwxo92sWbbuWnG-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jurovupwxo92sWbbuWnG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Jurovupwxo92sWbbuWnG-2" target="Jurovupwxo92sWbbuWnG-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="600" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="173" y="490" />
-              <mxPoint x="830" y="490" />
-            </Array>
+        <mxCell id="Jurovupwxo92sWbbuWnG-34" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Jurovupwxo92sWbbuWnG-33">
+          <mxGeometry x="0.1269" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jurovupwxo92sWbbuWnG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jurovupwxo92sWbbuWnG-2" target="Jurovupwxo92sWbbuWnG-13">
+        <mxCell id="Jurovupwxo92sWbbuWnG-17" value="Create documentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="Jurovupwxo92sWbbuWnG-1">
+          <mxGeometry x="310" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jurovupwxo92sWbbuWnG-18" value="Test your definition" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#99CCFF;" vertex="1" parent="Jurovupwxo92sWbbuWnG-1">
+          <mxGeometry x="50" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jurovupwxo92sWbbuWnG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Jurovupwxo92sWbbuWnG-1" source="Jurovupwxo92sWbbuWnG-3" target="Jurovupwxo92sWbbuWnG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jurovupwxo92sWbbuWnG-31" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Jurovupwxo92sWbbuWnG-14">
+          <mxGeometry x="-0.3021" y="2" relative="1" as="geometry">
+            <mxPoint x="22" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jurovupwxo92sWbbuWnG-32" value="Populate documentation" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;rounded=1;" vertex="1" parent="Jurovupwxo92sWbbuWnG-1">
+          <mxGeometry x="560" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jurovupwxo92sWbbuWnG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Jurovupwxo92sWbbuWnG-2" target="Jurovupwxo92sWbbuWnG-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jurovupwxo92sWbbuWnG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.458;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Jurovupwxo92sWbbuWnG-2" target="Jurovupwxo92sWbbuWnG-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="625" y="540" />
+              <mxPoint x="180" y="540" />
+              <mxPoint x="595" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -64,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Jurovupwxo92sWbbuWnG-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Actor&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#99CCFF;" vertex="1" parent="1">
-          <mxGeometry x="150" y="480" width="30" height="60" as="geometry" />
+          <mxGeometry x="150" y="430" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
